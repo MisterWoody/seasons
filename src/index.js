@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 
 class App extends React.Component {
     
+    // Note the statement below works due to babel
     state = { lat: null, errMessage: '' };
     
     componentDidMount() {
