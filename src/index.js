@@ -6,6 +6,8 @@ import Spinner from './Spinner';
 class App extends React.Component {
     
     // Note the statement below works due to babel
+    // which under the covers creates a constructor
+    
     state = { lat: null, errMessage: '' };
     
     componentDidMount() {
